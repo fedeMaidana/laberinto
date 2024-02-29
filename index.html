@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Juego</title>
+</head>
+<body>
+    <div class="game-container">
+        <canvas id="game"></canvas>
+
+        <div class="buttons">
+            <button id="up">⬆️</button>
+            <button id="left">⬅️</button>
+            <button id="right">➡️</button>
+            <button id="down">⬇️</button>
+        </div>
+
+        <div class="messages">
+            <p>Vidas: <span id="lives"></span></p>
+            <p>Tiempo: <span id="time"></span></p>
+            <p>Record: <span id="record"></span></p>
+            <p id="result"></p>
+        </div>
+
+        <button id="reload">Reiniciar</button>
+    </div>
+
+    <script type="module" src="./javascript/main.js"></script>
+</body>
+</html>
